@@ -1,0 +1,59 @@
+#div-principale {
+    color: blue;
+}
+
+#p-principale {
+    color: green;
+    font-weight: 500;
+}
+
+.testo-rosso {
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.allinea-testo-al-centro {
+    text-align: center;
+}
+
+span {
+    text-decoration: line-through;
+    height: 600px;
+    width: 800px;
+}
+
+.div-con-sfondo {
+    height: 600px;
+    width: 800px;
+    color: aquamarine;
+
+    background-color: lightcoral;
+    background-image: url('../img/gatto-grasso.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* -------------------------------------------------- */
+
+/* Selettore per id */
+#id {
+    /* REGOLE PER L'ID id */
+    /* PIù SPECIFICO */
+}
+
+/* Selettore per classe */
+.classe {
+    /* REGOLE PER LA CLASSE classe */
+    /* SPECIFICITà MEDIA */
+}
+
+/* Selettore per tag */
+div {
+    /* REGOLE PER I TAG div */
+    /* MENO SPECIFICO */
+}
